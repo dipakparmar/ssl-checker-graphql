@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "@dipakparmar/ssl-checker-graphql",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "bugs": "https://github.com/dipakparmar/ssl-checker-graphql/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dipakparmar/ssl-checker-graphql.git"
+  },
+  "private": false,
+  "description": "✡️ GraphQL API for checking SSL Status of a website.",
+  "version": "0.0.1-alpha.0",
+  "author": "Dipak Parmar <hi@dipak.tech>",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "graphql",
+    "ssl",
+    "checker",
+    "typescript"
+  ],
+  "dependencies": {
+    "@pothos/core": "3.25.0",
+    "axios": "1.2.1",
+    "graphql": "16.6.0",
+    "graphql-scalars": "1.20.1",
+    "graphql-yoga": "3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.14.1",
+    "@types/node-fetch": "^2.6.2",
+    "@typescript-eslint/eslint-plugin": "5.49.0",
+    "@typescript-eslint/parser": "5.53.0",
+    "eslint": "8.34.0",
+    "prettier": "2.8.4",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.9.5"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development ts-node-dev dev/server.ts",
+    "build": "rm -rf ./dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --check src/",
+    "format:fix": "prettier --write src/",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "license": "AGPL-3.0-or-later"
+}

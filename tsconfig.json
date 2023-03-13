@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.promise",
+      "es2015.symbol",
+      "es2015.iterable",
+      "es2015.collection",
+      "es2015.symbol.wellknown",
+      "es2015.core",
+      "es2017.object",
+      "es2017.string",
+      "es2019"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "**/*/dist"],
+    "paths": {}
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "**/*/dist",
+    "**/*/build",
+    "**/*/__tests__",
+    "**/*/__mocks__"
+  ]
+}
