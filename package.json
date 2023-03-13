@@ -35,7 +35,7 @@
     "@types/node": "18.15.0",
     "@types/node-fetch": "^2.6.2",
     "@typescript-eslint/eslint-plugin": "5.54.1",
-    "@typescript-eslint/parser": "5.53.0",
+    "@typescript-eslint/parser": "5.54.1",
     "eslint": "8.34.0",
     "prettier": "2.8.4",
     "ts-node-dev": "2.0.0",
