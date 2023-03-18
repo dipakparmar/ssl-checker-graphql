@@ -43,6 +43,8 @@ What things you need to install the software and how to install them:
 
 The server should now be running on http://localhost:4000 or port specified in .env file. You can now open the GraphQL Playground at http://localhost:4000/alpha/graphql to start querying the API.
 
+If you use Vercel Functions, take a look at the [example](./example/) folder.
+
 ## Usage
 
 The API supports the following query fields:
