@@ -218,10 +218,10 @@
     tslib "^2.4.1"
     webcrypto-core "^1.7.4"
 
-"@pothos/core@3.30.0":
-  version "3.30.0"
-  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.30.0.tgz#76f8f9cd23fc21b37389e805150638435129039e"
-  integrity sha512-ZUL2YTv3ODeKBkhkVcEO03lcERdqQaG2zfylNpkrY9ryAIhOuN9Pbo+VnfqhqEQx7jM/56Rro7i9AuhzF0Q3tA==
+"@pothos/core@3.41.1":
+  version "3.41.1"
+  resolved "https://registry.yarnpkg.com/@pothos/core/-/core-3.41.1.tgz#7f085ddc457c592923861223b491b6fefc9882e1"
+  integrity sha512-K+TGTK2Q7rmLU9WaC1cSDiGZaU9M+gHNbCYBom2W1vHuEYDUAiihVHz9tXYsrYjFMJSK+wLJ7Xp2374bQa9x/w==
 
 "@repeaterjs/repeater@3.0.4", "@repeaterjs/repeater@^3.0.4":
   version "3.0.4"
